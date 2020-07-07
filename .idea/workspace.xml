@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1c71141-7922-4279-9903-5ab3a7d0a6f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/trendyolTestAutomationCore/Core.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/trendyolTestAutomationCore/PageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/trendyolTestAutomationCore/Core.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/trendyolTestAutomationCore/PageControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/trendyolTestAutomationCore/PageControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/trendyolTestAutomationCore/Core.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/trendyolTestAutomationCore/PageControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/trendyolTestAutomationCore/PageControl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +36,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -54,7 +58,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
-  <component name="RunManager" selected="Application.Core">
+  <component name="RunManager" selected="JUnit.PageTests">
     <configuration name="Core" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="trendyolTestAutomationCore.Core" />
       <module name="SeleniumWebOtomasyon" />
@@ -81,9 +85,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PageControl.titleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebOtomasyon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trendyolTestAutomationCore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="trendyolTestAutomationCore" />
+      <option name="MAIN_CLASS_NAME" value="trendyolTestAutomationCore.PageControl" />
+      <option name="METHOD_NAME" value="titleTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebOtomasyon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trendyolTestAutomationCore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="trendyolTestAutomationCore" />
+      <option name="MAIN_CLASS_NAME" value="trendyolTestAutomationCore.PageTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageTests.titleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebOtomasyon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trendyolTestAutomationCore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="trendyolTestAutomationCore" />
+      <option name="MAIN_CLASS_NAME" value="trendyolTestAutomationCore.PageTests" />
+      <option name="METHOD_NAME" value="titleTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PageTests" />
         <item itemvalue="Application.Core" />
+        <item itemvalue="JUnit.PageTests.titleTest" />
+        <item itemvalue="JUnit.PageControl.titleTest" />
         <item itemvalue="Application.PageControl" />
       </list>
     </recent_temporary>
@@ -113,26 +167,46 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="488" y="78" key="#com.intellij.ide.util.MemberChooser" timestamp="1594143033176">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="78" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1594143033176" />
     <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1594123546288">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594123546288" />
-    <state width="1322" height="162" key="GridCell.Tab.0.bottom" timestamp="1594128379216">
+    <state width="1322" height="165" key="GridCell.Tab.0.bottom" timestamp="1594148228829">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="162" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594128379216" />
-    <state width="1322" height="162" key="GridCell.Tab.0.center" timestamp="1594128379216">
+    <state width="1322" height="165" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594148228829" />
+    <state width="1322" height="165" key="GridCell.Tab.0.center" timestamp="1594148228829">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="162" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594128379216" />
-    <state width="1322" height="162" key="GridCell.Tab.0.left" timestamp="1594128379215">
+    <state width="1322" height="165" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594148228829" />
+    <state width="1322" height="165" key="GridCell.Tab.0.left" timestamp="1594148228829">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="162" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594128379215" />
-    <state width="1322" height="162" key="GridCell.Tab.0.right" timestamp="1594128379216">
+    <state width="1322" height="165" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594148228829" />
+    <state width="1322" height="165" key="GridCell.Tab.0.right" timestamp="1594148228829">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="162" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594128379216" />
+    <state width="1322" height="165" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594148228829" />
+    <state width="1322" height="217" key="GridCell.Tab.1.bottom" timestamp="1594146549850">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594146549850" />
+    <state width="1322" height="217" key="GridCell.Tab.1.center" timestamp="1594146549850">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594146549850" />
+    <state width="1322" height="217" key="GridCell.Tab.1.left" timestamp="1594146549850">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594146549850" />
+    <state width="1322" height="217" key="GridCell.Tab.1.right" timestamp="1594146549850">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594146549850" />
     <state x="213" y="17" key="Maven.ArtifactSearchDialog" timestamp="1594126640533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
