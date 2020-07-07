@@ -2,9 +2,13 @@ package trendyolTestAutomationCore;
 
 import com.google.common.base.Function;
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.Page;
@@ -12,6 +16,8 @@ import utils.Page;
 import java.util.concurrent.TimeUnit;
 
 public class PageControl extends Page{
+
+    protected WebDriverWait wait= new WebDriverWait(driver, 1000);
 
     public void waitForPageLoad() {
 
@@ -26,5 +32,22 @@ public class PageControl extends Page{
             }
         });
     }
+
+    public WebElement findByClassName(String name){
+        WebElement Element=driver.findElement(By.className(name));
+        return Element;
+    }
+
+    public ExpectedCondition<WebElement> elementClickableById(String name){
+        ExpectedCondition<WebElement> clickable= ExpectedConditions.elementToBeClickable((By.id(name)));
+        return clickable;
+    }
+
+    public WebElement findById(String name){
+        WebElement Element=driver.findElement(By.id(name));
+        return Element;
+    }
+
+
 
 }
