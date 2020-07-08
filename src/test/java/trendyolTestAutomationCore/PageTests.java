@@ -6,6 +6,7 @@ import org.junit.Test;
 import org.junit.runners.MethodSorters;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -20,7 +21,7 @@ public class PageTests extends PageControl {
 
 
     @Test
-    public void titleTest() {
+    public void a_titleTest() {
         driver.get(url);
         waitForPageLoad();
         Assert.assertTrue(driver.getTitle().equals("En Trend Ürünler Türkiye'nin Online Alışveriş Sitesi Trendyol'da"));
@@ -34,15 +35,31 @@ public class PageTests extends PageControl {
         }
     }
 
-    @Test
-    public void loginPageTest() {
+  /*  @Test
+    public void b_loginPageTest() {
         driver.get("https://www.trendyol.com/User/Login");
         waitForPageLoad();
         System.out.println("Login site has been opened");
     }
 
+   */
     @Test
-    public void loginProcessTest() {
+    public void b_loginButtonTest() {
+        try {
+            action = new Actions(driver);
+            WebElement we = driver.findElement(By.id("accountBtn"));
+            action.moveToElement(we).build().perform();
+            action.moveToElement(driver.findElement(By.xpath("//*[@id=\"not-logged-in-container\"]/div/div[1]"))).click().build().perform();
+            System.out.println("Tuşa basıldı");
+            wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"email\"]")));
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void c_loginProcessTest() {
         try {
             wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"fEmailx\"]"))).click();
             driver.findElement(By.id("fEmailx")).sendKeys("test.test12325@yahoo.com");
@@ -54,22 +71,8 @@ public class PageTests extends PageControl {
         }
     }
 
-    /*@Test
-    public void loginButtonTest() {
-        try {
-            action = new Actions(driver);
-            WebElement we = driver.findElement(By.id("accountBtn"));
-            action.moveToElement(we).build().perform();
-            driver.findElement(By.className("account-button login")).click();
-            System.out.println("Tuşa basıldı");
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }*/
-
-    @Test
-    public void searchBoxTest() {
+  /*  @Test
+    public void d_searchBoxTest() {
         try {
             waitForPageLoad();
             if (driver.findElements(By.xpath("//*[@id=\"Combined-Shape\"]")).size() > 0) {
@@ -89,6 +92,13 @@ public class PageTests extends PageControl {
         }
 
     }
-
+    @Test
+    public void e_itemSelectTest(){
+        waitForPageLoad();
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"search-app\"]/div/div/div[2]/div[2]/div/div[1]")));
+        driver.findElement(By.xpath("//*[@id=\"search-app\"]/div/div/div[2]/div[2]/div/div[1]")).click();
+        waitForPageLoad();
+    }
+*/
 }
 
