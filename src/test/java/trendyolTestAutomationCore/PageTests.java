@@ -32,20 +32,25 @@ public class PageTests extends PageControl {
             System.out.println("No pop-up found");
         }
     }
-
     @Test
+    public void loginPageTest(){
+        driver.get("https://www.trendyol.com/User/Login");
+        waitForPageLoad();
+        System.out.println("Login site has been opened");
+    }
+
+    /*@Test
     public void loginButtonTest() {
         try {
             action = new Actions(driver);
-            WebElement we = driver.findElement(By.xpath("//*[@id=\"accountBtn\"]"));
-            action.moveToElement(we).perform();
-            //driver.findElement(By.xpath("//div[@class='login-panel-container']//div[1]")).click();
-
-
-
+            WebElement we = driver.findElement(By.id("accountBtn"));
+            action.moveToElement(we).build().perform();
+            driver.findElement(By.className("account-button login")).click();
             System.out.println("Tuşa basıldı");
+
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
+    }*/
+
 }
