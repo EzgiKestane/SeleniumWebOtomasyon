@@ -20,17 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1c71141-7922-4279-9903-5ab3a7d0a6f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SeleniumWebOtomasyon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumWebOtomasyon.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/trendyolTestAutomationCore/PageControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/trendyolTestAutomationCore/PageControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/trendyolTestAutomationCore/PageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/trendyolTestAutomationCore/PageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/trendyolTestAutomationCore/PageControl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/trendyolTestAutomationCore/PageControl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/trendyolTestAutomationCore/PageControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/trendyolTestAutomationCore/PageControl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/trendyolTestAutomationCore/PageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/trendyolTestAutomationCore/PageTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/Page.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,6 +164,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="78" key="#com.intellij.ide.util.MemberChooser" timestamp="1594143033176">
@@ -182,38 +175,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594123546288" />
-    <state width="1322" height="197" key="GridCell.Tab.0.bottom" timestamp="1594201271325">
+    <state width="1322" height="110" key="GridCell.Tab.0.bottom" timestamp="1594217822101">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594201271325" />
-    <state width="1322" height="197" key="GridCell.Tab.0.center" timestamp="1594201271325">
+    <state width="1322" height="110" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594217822101" />
+    <state width="1322" height="110" key="GridCell.Tab.0.center" timestamp="1594217822101">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594201271325" />
-    <state width="1322" height="197" key="GridCell.Tab.0.left" timestamp="1594201271325">
+    <state width="1322" height="110" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594217822101" />
+    <state width="1322" height="110" key="GridCell.Tab.0.left" timestamp="1594217822101">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594201271325" />
-    <state width="1322" height="197" key="GridCell.Tab.0.right" timestamp="1594201271325">
+    <state width="1322" height="110" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594217822101" />
+    <state width="1322" height="110" key="GridCell.Tab.0.right" timestamp="1594217822101">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594201271325" />
-    <state width="1322" height="197" key="GridCell.Tab.1.bottom" timestamp="1594201262828">
+    <state width="1322" height="110" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594217822101" />
+    <state width="1322" height="197" key="GridCell.Tab.1.bottom" timestamp="1594216019626">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594201262828" />
-    <state width="1322" height="197" key="GridCell.Tab.1.center" timestamp="1594201262828">
+    <state width="1322" height="197" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594216019626" />
+    <state width="1322" height="197" key="GridCell.Tab.1.center" timestamp="1594216019626">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594201262828" />
-    <state width="1322" height="197" key="GridCell.Tab.1.left" timestamp="1594201262828">
+    <state width="1322" height="197" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594216019626" />
+    <state width="1322" height="197" key="GridCell.Tab.1.left" timestamp="1594216019625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594201262828" />
-    <state width="1322" height="197" key="GridCell.Tab.1.right" timestamp="1594201262828">
+    <state width="1322" height="197" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594216019625" />
+    <state width="1322" height="197" key="GridCell.Tab.1.right" timestamp="1594216019626">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="197" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594201262828" />
+    <state width="1322" height="197" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594216019626" />
     <state x="213" y="17" key="Maven.ArtifactSearchDialog" timestamp="1594126640533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -226,16 +219,5 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="23" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1594123567537" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/trendyolTestAutomationCore/PageTests.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
