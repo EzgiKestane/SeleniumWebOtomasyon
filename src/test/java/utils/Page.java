@@ -4,9 +4,11 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class Page {
     protected static WebDriver driver;
+    protected static Actions action;
     protected static String url = "https://www.trendyol.com/";
 
     static @BeforeClass

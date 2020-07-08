@@ -20,15 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1c71141-7922-4279-9903-5ab3a7d0a6f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/trendyolTestAutomationCore/Core.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumWebOtomasyon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumWebOtomasyon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/trendyolTestAutomationCore/PageControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/trendyolTestAutomationCore/PageControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/trendyolTestAutomationCore/PageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/trendyolTestAutomationCore/PageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/trendyolTestAutomationCore/Core.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/trendyolTestAutomationCore/PageControl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/trendyolTestAutomationCore/PageControl$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/trendyolTestAutomationCore/PageControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/trendyolTestAutomationCore/PageControl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/trendyolTestAutomationCore/PageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/trendyolTestAutomationCore/PageTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/Page.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +62,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
-  <component name="RunManager" selected="JUnit.PageTests.titleTest">
+  <component name="RunManager" selected="JUnit.PageTests">
     <configuration name="Core" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="trendyolTestAutomationCore.Core" />
       <module name="SeleniumWebOtomasyon" />
@@ -139,9 +141,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PageTests.titleTest" />
-        <item itemvalue="JUnit.PageTests.loginButtonTest" />
         <item itemvalue="JUnit.PageTests" />
+        <item itemvalue="JUnit.PageTests.loginButtonTest" />
+        <item itemvalue="JUnit.PageTests.titleTest" />
         <item itemvalue="Application.Core" />
         <item itemvalue="JUnit.PageControl.titleTest" />
       </list>
@@ -180,22 +182,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594123546288" />
-    <state width="1322" height="283" key="GridCell.Tab.0.bottom" timestamp="1594158346888">
+    <state width="1322" height="152" key="GridCell.Tab.0.bottom" timestamp="1594166549675">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="283" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594158346888" />
-    <state width="1322" height="283" key="GridCell.Tab.0.center" timestamp="1594158346888">
+    <state width="1322" height="152" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594166549675" />
+    <state width="1322" height="152" key="GridCell.Tab.0.center" timestamp="1594166549675">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="283" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594158346888" />
-    <state width="1322" height="283" key="GridCell.Tab.0.left" timestamp="1594158346888">
+    <state width="1322" height="152" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594166549675" />
+    <state width="1322" height="152" key="GridCell.Tab.0.left" timestamp="1594166549675">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="283" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594158346888" />
-    <state width="1322" height="283" key="GridCell.Tab.0.right" timestamp="1594158346888">
+    <state width="1322" height="152" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594166549675" />
+    <state width="1322" height="152" key="GridCell.Tab.0.right" timestamp="1594166549675">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="283" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594158346888" />
+    <state width="1322" height="152" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594166549675" />
     <state width="1322" height="197" key="GridCell.Tab.1.bottom" timestamp="1594155768856">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -230,13 +232,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/trendyolTestAutomationCore/PageTests.java</url>
-          <line>16</line>
+          <line>22</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/trendyolTestAutomationCore/PageControl.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

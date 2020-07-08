@@ -7,11 +7,17 @@ import org.junit.runners.MethodSorters;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import javax.swing.*;
+import java.time.Duration;
+
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class PageTests extends PageControl {
+
+
     @Test
     public void titleTest() {
         driver.get(url);
@@ -30,9 +36,15 @@ public class PageTests extends PageControl {
     @Test
     public void loginButtonTest() {
         try {
-            driver.findElement(By.xpath("//*[@id=\"not-logged-in-container\"]/span")).click();
+            action = new Actions(driver);
+            WebElement we = driver.findElement(By.xpath("//*[@id=\"accountBtn\"]"));
+            action.moveToElement(we).perform();
+            //driver.findElement(By.xpath("//div[@class='login-panel-container']//div[1]")).click();
+
+
+
             System.out.println("Tuşa basıldı");
-        }catch(Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

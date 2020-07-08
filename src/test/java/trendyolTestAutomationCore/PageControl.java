@@ -19,6 +19,7 @@ public class PageControl extends Page{
 
     protected WebDriverWait wait= new WebDriverWait(driver, 1000);
 
+
     public void waitForPageLoad() {
 
         Wait<WebDriver> wait = new WebDriverWait(driver, 10);
@@ -31,23 +32,6 @@ public class PageControl extends Page{
                         .equals("complete");
             }
         });
+
     }
-
-    public WebElement findByClassName(String name){
-        WebElement Element=driver.findElement(By.className(name));
-        return Element;
-    }
-
-    public ExpectedCondition<WebElement> elementClickableById(String name){
-        ExpectedCondition<WebElement> clickable= ExpectedConditions.elementToBeClickable((By.id(name)));
-        return clickable;
-    }
-
-    public WebElement findById(String name){
-        WebElement Element=driver.findElement(By.id(name));
-        return Element;
-    }
-
-
-
 }
